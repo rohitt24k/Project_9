@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+button{
+    padding: 0.4rem 1rem;
+    border-width: 0;
+    border-radius: 1rem;
+    color: white;
+    font-size: 0.9rem;
+    /* margin-top: 1.2rem; */
+    background-color: #6663E9;
+    font-weight: 600;
+    transition: 0.2s;
+}   
+button:hover{
+    background-color: #504de2;
+}
+/*============================ 
+============Header============
+============================*/
+
+header{
+    height: 125vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0,0.5)) ,url(./Photos/mainBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header nav{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    border-bottom: 2px solid white;
+}
+header nav img{
+    height: 2rem;
+}
+header nav ul{
+    display: flex;
+    gap: 3rem;
+}
+header li{
+    list-style: none;
+}
+header li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 300;
+    transition: 0.2s;
+}
+header li a:hover{
+    color: aqua;
+}
+
+header section{
+    margin: 4rem 6rem;
+}
+header section h1{
+    font-size: 5rem;
+    width: 70%;
+    font-weight: 500;
+    color: white;
+}
+header section p{
+    color: white;
+    font-size: 1rem;
+    width: 35%;
+    line-height: 1.2rem;
+    margin-top: 1rem;
+}
+header section button{
+    margin-top: 1.2rem;
+}
+
+
+/*===============================
+============logoSection==========
+===============================*/
+
+.logoSection{
+    width: 90vw;
+    margin: auto;
+    padding: 4rem 0;
+    border-radius: 1rem;
+    background-color: white;
+    position: relative;
+    bottom: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*======================
+============h1==========
+======================*/
+
+.middleText{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+/*============================== 
+==========photoGallery==========
+==============================*/
+
+.photoGallery{
+    padding: 3rem;
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    gap: 2rem;
+}
+.photoGallery img{
+    width: 30vw;
+    height: 32vw;
+    border-radius: 1rem;
+}
+.cardText{
+    width: 24vw;
+    position: relative;
+    bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+}
+.cardText h3{
+    font-weight: 600;
+}
+.cardText p{
+    color: #6663E9;
+    font-weight: 500;
+}
+.card2{
+    margin-top: 1rem;
+}
+.card3{
+    margin-top: 2rem;
+}
+.card4{
+    margin-top: 2rem;
+}
+.card5{
+    margin-top: 1rem;
+}
+.card8{
+    margin-top: 1rem;
+}
+.card9{
+    margin-top: 2rem;
+}
+
+/*============================
+============feature1==========
+============================*/
+
+.feature1{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    position: relative;
+    margin-top: 10rem;
+}
+.feature1 h1{
+    font-size: 3rem;
+    width: 60%;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.feature1 button{
+    margin-top: 1.5rem;
+}
+.featurebg{
+    width: 35rem;
+}
+.featureImage1{
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    left: 7rem;
+    bottom: 7rem;
+    border-radius: 2rem;
+    background-image: url(./Photos/featuresImage1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/*============================
+============feature2==========
+============================*/
+
+.feature2{
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.feature2 h1{
+    font-size: 3rem;
+    width: 70%;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.feature2 button{
+    margin-top: 1.5rem;
+}
+.featureImage2{
+    background-image: url(./Photos/featuresImage2.png);    
+    width: 25rem;
+    height: 25rem;
+    position: absolute;
+    border-radius: 2rem;
+    background-size: cover;
+    background-position: center;
+    right: 7rem;
+    bottom: 7rem;
+}
+.feature2Text{
+    margin-left: 6rem;
+}
+
+/*=============================
+=========newsLetter============
+=============================*/
+
+.newsLetter{
+    border-radius: 2rem;
+    padding: 2.5rem 0 1.5rem 0;
+    margin: 7rem 8rem;
+    background-color: #6663E9;
+}
+.newsLetter h1{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    font-weight: 600
+}
+.newsLetter p{
+    color: white;
+    width: 40rem;
+    text-align: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+.newsLetter div{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 1rem; */
+    align-items: center;
+    margin: 1rem;
+}
+.newsLetter button{
+    background-color: white;
+    color: #6663E9;
+}
+.email{
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+.email img{
+    width: 1rem;
+}
+.email input{
+    background-color: transparent;
+    border-width: 0;
+    margin-left: 0.8rem;
+    font-size: 0.8rem;
+    width: 20rem;
+    color: white;
+}
+.email input:focus{
+    outline: none;
+}
+
+/*=============================
+===========footer==============
+=============================*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+.footerText{
+    display: flex;
+    gap: 4rem;
+}
+footer li{
+    list-style: none;
+}
+.footerText ul{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footerSocial{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footerSocial ul{
+    display: flex;
+    gap: 1rem;
+}
+.footerLogo{
+    width: 7rem;
+    
+}
+.socialIcons{
+    height: 2rem;
+}
+.footerSocial p{
+    font-size: 0.8rem;
+}
